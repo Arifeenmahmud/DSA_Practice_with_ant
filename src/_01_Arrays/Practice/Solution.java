@@ -1,3 +1,5 @@
+package _01_Arrays.Practice;
+
 import java.util.Arrays;
 
 public class Solution {
