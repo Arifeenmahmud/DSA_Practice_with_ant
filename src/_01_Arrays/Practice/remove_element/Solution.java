@@ -1,4 +1,4 @@
-package _01_Arrays.Practice;
+package _01_Arrays.Practice.remove_element;
 
 import java.util.Arrays;
 
