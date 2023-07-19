@@ -2,11 +2,13 @@ package _01_Arrays.Practice.Contains_Duplicate217;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 public class Solution {
     public static boolean containsDuplicate(int[] nums) {
         // Create a set to store unique elements
-        Set<Integer> uniqueNums = new HashSet<>();
+//        Set<Integer> uniqueNums = new HashSet<>();
+        Set<Integer> uniqueNums = new TreeSet<>();
 
         // Iterate over the array
         for (int num : nums) {
